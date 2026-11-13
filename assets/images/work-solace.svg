@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="solaceTitle">
+  <title id="solaceTitle">Solace wellness brand artwork</title>
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#EDE4D2"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#24312A" stroke-opacity="0.14"/>
+
+  <text x="56" y="76" fill="#24312A" fill-opacity="0.6" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3.4">SOLACE — WELLNESS</text>
+  <line x1="56" y1="92" x2="196" y2="92" stroke="#24312A" stroke-opacity="0.25"/>
+
+  <circle cx="648" cy="200" r="58" fill="#D8B25E"/>
+  <path d="M360 540V330a120 120 0 0 1 240 0v210Z" fill="#7E8F74"/>
+  <path d="M400 540V336a80 80 0 0 1 160 0v204" fill="none" stroke="#EDE4D2" stroke-opacity="0.4"/>
+  <path d="M470 540V368a100 100 0 0 1 200 0v172Z" fill="#C97B5A"/>
+  <path d="M500 540V374a70 70 0 0 1 140 0v166" fill="none" stroke="#EDE4D2" stroke-opacity="0.35"/>
+  <path d="M360 540h310" stroke="#24312A" stroke-opacity="0.4"/>
+
+  <text x="56" y="352" fill="#24312A" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3.4">BRAND IDENTITY / PACKAGING</text>
+  <text x="54" y="438" fill="#24312A" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="1">Solace</text>
+  <text x="58" y="470" fill="#24312A" fill-opacity="0.65" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="4.2">CALM, BY DESIGN.</text>
+  <line x1="58" y1="492" x2="190" y2="492" stroke="#C97B5A"/>
+
+  <g fill="#24312A" fill-opacity="0.55">
+    <path d="M58 512h1v9h-1zM58 512h9v1h-9z"/>
+    <path d="M330 512h1v9h-1zM322 512h9v1h-9z"/>
+  </g>
+  <text x="744" y="556" fill="#24312A" fill-opacity="0.5" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2.6" text-anchor="end">MMXXVI / 01</text>
+
+  <rect width="800" height="600" filter="url(#grain)" opacity="0.12" style="mix-blend-mode:multiply"/>
+</svg>

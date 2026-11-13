@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="nocturneTitle">
+  <title id="nocturneTitle">Nocturne restaurant identity artwork</title>
+  <defs>
+    <radialGradient id="nbg" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#3B181D"/>
+      <stop offset="0.6" stop-color="#2A1114"/>
+      <stop offset="1" stop-color="#1A090C"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <path id="nstar" d="M0-9C1-2 2-1 9 0 2 1 1 2 0 9-1 2-2 1-9 0-2-1-1-2 0-9Z"/>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#nbg)"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C8A24B" stroke-opacity="0.35"/>
+  <rect x="38" y="38" width="724" height="524" fill="none" stroke="#C8A24B" stroke-opacity="0.14"/>
+
+  <circle cx="400" cy="196" r="52" fill="none" stroke="#D8B25E" stroke-opacity="0.8"/>
+  <circle cx="400" cy="196" r="52" fill="#D8B25E" opacity="0.08"/>
+  <use href="#nstar" transform="translate(400 196) scale(0.9)" fill="#D8B25E" opacity="0.9"/>
+
+  <g stroke="#C8A24B" stroke-opacity="0.4">
+    <line x1="248" y1="392" x2="332" y2="392"/>
+    <line x1="468" y1="392" x2="552" y2="392"/>
+    <line x1="348" y1="392" x2="356" y2="392"/>
+    <line x1="444" y1="392" x2="452" y2="392"/>
+  </g>
+
+  <text x="400" y="330" fill="#EAD9B8" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-style="italic" text-anchor="middle">Nocturne</text>
+  <text x="400" y="374" fill="#C8A24B" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="6.5" text-anchor="middle">RESTAURANT &amp; BAR</text>
+
+  <text x="400" y="470" fill="#B9A48D" fill-opacity="0.75" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" text-anchor="middle">Dinner, after dark.</text>
+  <text x="400" y="520" fill="#B9A48D" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="3.6" text-anchor="middle">OPEN LATE — MUMBAI · EST. 2025</text>
+
+  <g fill="#C8A24B" opacity="0.55">
+    <path d="M60 60h18v1H60zM60 60h1v18h-1z"/>
+    <path d="M740 60h-18v1h18zM740 60h-1v18h1z"/>
+    <path d="M60 540h18v-1H60zM60 540h1v-18h-1z"/>
+    <path d="M740 540h-18v-1h18zM740 540h-1v-18h1z"/>
+  </g>
+
+  <rect width="800" height="600" filter="url(#grain)" opacity="0.14" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 880" width="720" height="880" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Gold sphere with orbital rings</title>
+  <desc id="heroDesc">Abstract artwork of a luminous gold sphere circled by thin rings on a dark, textured background.</desc>
+  <defs>
+    <radialGradient id="bg" cx="32%" cy="18%" r="95%">
+      <stop offset="0" stop-color="#1B1B20"/>
+      <stop offset="0.55" stop-color="#111114"/>
+      <stop offset="1" stop-color="#0A0A0C"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#FFF0BF"/>
+      <stop offset="0.32" stop-color="#E3C072"/>
+      <stop offset="0.62" stop-color="#B58A35"/>
+      <stop offset="0.85" stop-color="#7C581D"/>
+      <stop offset="1" stop-color="#4E350F"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#D8B25E" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#D8B25E" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#D8B25E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D8B25E" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#D8B25E" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#F6E3A9" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#D8B25E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <path id="spark" d="M0-14C1-4 4-1 14 0 4 1 1 4 0 14-1 4-4 1-14 0-4-1-1-4 0-14Z"/>
+  </defs>
+
+  <rect width="720" height="880" fill="url(#bg)"/>
+
+  <g stroke="#F4EFE6" stroke-opacity="0.045" stroke-width="1">
+    <path d="M90 0v880M180 0v880M270 0v880M360 0v880M450 0v880M540 0v880M630 0v880"/>
+    <path d="M0 110h720M0 220h720M0 330h720M0 440h720M0 550h720M0 660h720M0 770h720"/>
+  </g>
+
+  <circle cx="430" cy="360" r="320" fill="url(#glow)"/>
+  <circle cx="430" cy="360" r="238" fill="none" stroke="#D8B25E" stroke-opacity="0.16"/>
+  <circle cx="430" cy="360" r="302" fill="none" stroke="#D8B25E" stroke-opacity="0.08"/>
+
+  <g fill="none">
+    <ellipse cx="430" cy="360" rx="336" ry="106" stroke="url(#ring)" stroke-width="1.4" transform="rotate(-16 430 360)"/>
+    <ellipse cx="430" cy="360" rx="366" ry="142" stroke="url(#ring)" stroke-opacity="0.45" transform="rotate(24 430 360)"/>
+    <ellipse cx="430" cy="360" rx="396" ry="180" stroke="#D8B25E" stroke-opacity="0.1" transform="rotate(-38 430 360)"/>
+  </g>
+
+  <ellipse cx="442" cy="516" rx="186" ry="42" fill="#000000" opacity="0.5" filter="url(#soft)"/>
+  <circle cx="430" cy="350" r="172" fill="url(#gold)"/>
+  <ellipse cx="381" cy="289" rx="76" ry="48" fill="#FFF6D8" opacity="0.22" transform="rotate(-24 381 289)"/>
+  <circle cx="430" cy="350" r="172" fill="none" stroke="#FFE9B0" stroke-opacity="0.2"/>
+
+  <g fill="#D8B25E">
+    <use href="#spark" transform="translate(158 208) scale(0.9)" opacity="0.9"/>
+    <use href="#spark" transform="translate(590 168) scale(0.55)" opacity="0.65"/>
+    <use href="#spark" transform="translate(556 614) scale(0.7)" opacity="0.5"/>
+    <use href="#spark" transform="translate(132 566) scale(0.4)" opacity="0.4"/>
+  </g>
+
+  <text x="64" y="64" fill="#D8B25E" fill-opacity="0.75" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3.5">BRAND / DIGITAL / 2026</text>
+  <line x1="64" y1="80" x2="182" y2="80" stroke="#D8B25E" stroke-opacity="0.35"/>
+
+  <text x="660" y="540" fill="#F4EFE6" fill-opacity="0.38" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="5" transform="rotate(90 660 540)">AURUM STUDIO — EST. 2019</text>
+
+  <text x="64" y="812" fill="#F4EFE6" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="13">AURUM</text>
+  <line x1="64" y1="832" x2="306" y2="832" stroke="#D8B25E" stroke-opacity="0.45"/>
+  <text x="64" y="856" fill="#F4EFE6" fill-opacity="0.45" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3.6">INDEPENDENT DESIGN STUDIO — EST. 2019</text>
+
+  <rect width="720" height="880" filter="url(#noise)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>

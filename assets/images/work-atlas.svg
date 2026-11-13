@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="atlasTitle">
+  <title id="atlasTitle">Atlas architecture studio artwork</title>
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#E8E4DA"/>
+  <g stroke="#1B1B19" stroke-opacity="0.08">
+    <path d="M56 0v600M744 0v600M0 72h800M0 528h800"/>
+  </g>
+
+  <circle cx="330" cy="228" r="60" fill="#C97B5A"/>
+  <rect x="370" y="298" width="64" height="222" fill="#8D877C"/>
+  <rect x="430" y="180" width="252" height="340" fill="#1B1B19"/>
+  <rect x="360" y="488" width="342" height="32" fill="#1B1B19"/>
+  <rect x="430" y="180" width="252" height="8" fill="#2B2B28"/>
+
+  <g stroke="#E8E4DA" stroke-opacity="0.16">
+    <path d="M454 180v340M478 180v340M502 180v340M526 180v340M550 180v340M574 180v340M598 180v340M622 180v340M646 180v340M670 180v340"/>
+    <path d="M430 212h252M430 244h252M430 276h252M430 308h252M430 340h252M430 372h252M430 404h252M430 436h252M430 468h252"/>
+  </g>
+  <rect x="430" y="180" width="252" height="340" fill="none" stroke="#1B1B19"/>
+
+  <g stroke="#1B1B19" stroke-opacity="0.45">
+    <path d="M430 150v-16M682 150v-16M430 142h252"/>
+    <path d="M700 180h16M700 520h16M708 180v340"/>
+  </g>
+  <text x="556" y="136" fill="#1B1B19" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" text-anchor="middle">54.0 M</text>
+  <text x="722" y="354" fill="#1B1B19" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" transform="rotate(90 722 354)" text-anchor="middle">32.0 M</text>
+
+  <text x="56" y="118" fill="#1B1B19" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" letter-spacing="15">ATLAS</text>
+  <text x="60" y="144" fill="#1B1B19" fill-opacity="0.6" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="4.2">ARCHITECTURE / URBANISM</text>
+
+  <text x="56" y="514" fill="#1B1B19" fill-opacity="0.7" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic">Light, material, city.</text>
+  <text x="56" y="546" fill="#1B1B19" fill-opacity="0.5" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2.8">SELECTED WORKS 2004—2024</text>
+
+  <g fill="#1B1B19" fill-opacity="0.4">
+    <path d="M60 186h12v1H60zM60 186h1v12h-1z"/>
+    <path d="M60 570h12v-1H60zM60 570h1v-12h-1z"/>
+  </g>
+
+  <rect width="800" height="600" filter="url(#grain)" opacity="0.1" style="mix-blend-mode:multiply"/>
+</svg>
